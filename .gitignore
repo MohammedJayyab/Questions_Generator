@@ -1,0 +1,10 @@
+venv/*
+venv/
+lib/
+__pycache__/
+
+*.pyc
+*.pyo
+
+output/
+data/

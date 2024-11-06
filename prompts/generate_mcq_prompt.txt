@@ -1,0 +1,3 @@
+Create {num_questions} {difficulty} multiple-choice questions based on the following text:
+
+{text}

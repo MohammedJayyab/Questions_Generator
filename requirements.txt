@@ -1,0 +1,5 @@
+python-dotenv
+PyMuPDF
+nltk
+openai
+#openai migrate
