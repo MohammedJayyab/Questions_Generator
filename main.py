@@ -25,6 +25,7 @@ def generate_mcqs_for_chapter():
     chapter_number = input("Enter chapter number: ")
     text = extract_text_from_pdf()
     chapter_text = extract_chapter(text, chapter_number)
+
     
     if not chapter_text:
         print(f"Chapter {chapter_number} not found.")
@@ -34,7 +35,7 @@ def generate_mcqs_for_chapter():
     if not subtopics:
         print("No subtopics found.")
         return
-
+    
     mcqs = generate_mcq(subtopics, 3, "medium")
     if mcqs:
         export_mcqs_to_json(mcqs)
